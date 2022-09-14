@@ -1,6 +1,8 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  padding-left: 5%;
+  padding-left: 5%;
 }
 
 body {
@@ -11,6 +13,15 @@ body {
 p {
   font-size: large;
   font-weight: bold;
+  padding: 10px;
+}
+
+#stack {
+  padding: 10px;
+}
+
+#bud {
+  padding: 10px;
 }
 
 :root {
