@@ -8,6 +8,11 @@ body {
   color: white;
 }
 
+p {
+  font-size: large;
+  font-weight: bold;
+}
+
 :root {
   --grid: 4px;
 }
