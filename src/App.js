@@ -5,7 +5,7 @@ import Intro from './Intro'
 export default function App() {
   return (
     <div className="App">
-      <h1 class="gradient1"> EarBuds </h1>
+      <h1 class="grad"> EarBuds </h1>
       <Intro />
     </div>
   );
