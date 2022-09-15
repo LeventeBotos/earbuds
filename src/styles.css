@@ -5,6 +5,34 @@
   padding-left: 5%;
 }
 
+.gradient1 {
+  background: -webkit-linear-gradient(45deg, red, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  }
+  
+.grad2 {
+  background: -webkit-linear-gradient(45deg, orange, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  font-weight: bold;
+}
+
+.grad3 {
+  background: -webkit-linear-gradient(45deg, yellow, green);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.grad4 {
+  background: -webkit-linear-gradient(45deg, green, cyan);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
 body {
   background-color: black;
   color: white;
