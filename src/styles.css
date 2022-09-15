@@ -194,3 +194,9 @@ p {
     margin-left: var(--spacing);
   }
 }
+
+@media screen and (max-width: 600px) {
+  img {
+    width: 100%;
+  }
+}
