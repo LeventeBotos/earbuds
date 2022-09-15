@@ -2,35 +2,51 @@
   font-family: sans-serif;
   text-align: center;
   padding-left: 5%;
-  padding-left: 5%;
+  padding-right: 5%;
+  width: auto;
 }
 
-.gradient1 {
+.grad {
+  background: -webkit-linear-gradient(45deg, white, grey);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.grad1 {
   background: -webkit-linear-gradient(45deg, red, orange);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
-  }
-  
+}
+
 .grad2 {
   background: -webkit-linear-gradient(45deg, orange, yellow);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   font-weight: bold;
 }
 
 .grad3 {
   background: -webkit-linear-gradient(45deg, yellow, green);
-  -webkit-background-clip:text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
 }
 
 .grad4 {
   background: -webkit-linear-gradient(45deg, green, cyan);
-  -webkit-background-clip:text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
+}
+
+img {
+  width: 20vw;
+}
+
+div {
+  padding: 10px;
 }
 
 body {
